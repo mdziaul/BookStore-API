@@ -1,0 +1,41 @@
+ {level:upppercase=true} Books - Create : Create a new book attempted.
+ {level:upppercase=true} Books - Create: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7e999436-c42b-4ef5-bbff-ae2bf619a1f3
+Error Number:547,State:0,Class:16
+ {level:upppercase=true} Books - Update : Update attempted with book id : 2
+ {level:upppercase=true} Books - Update Book record not found with id: 2
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 2
+ {level:upppercase=true} Books - GetBook : Failed to retrive record with id: 2
+ {level:upppercase=true} Books - GetBooks : Attempted to retrive all books.
+ {level:upppercase=true} Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook : successfully got record with id: 1
+ {level:upppercase=true} Books - GetBooks : Attempted to retrive all books.
+ {level:upppercase=true} Books - GetBooks : successfully returns all book.
+ {level:upppercase=true} Books - Update : Update attempted with book id : 1
+ {level:upppercase=true} Books - Update : Book record with id : 1 is updated.
+ {level:upppercase=true} Books - Update : Update attempted with book id : 1
+ {level:upppercase=true} Books - Update : Book record with id : 1 is updated.
+ {level:upppercase=true} Books - Update : Update attempted with book id : 1
+ {level:upppercase=true} Books - Update : Book record with id : 1 is updated.
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook : successfully got record with id: 1
+ {level:upppercase=true} Books - GetBook 		: Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook : successfully got record with id: 1

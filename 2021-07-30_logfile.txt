@@ -1,0 +1,17 @@
+ {level:upppercase=true} Books - GetBooks : Attempted call
+ {level:upppercase=true} Books - GetBooks: Invalid column name 'Summery'. - 
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook: Invalid column name 'Summery'. - 
+ {level:upppercase=true} Books - GetBooks : Attempted call
+ {level:upppercase=true} Books - GetBooks : successful
+ {level:upppercase=true} Books - GetBook : Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook : Failed to retrive record with id: 1
+ {level:upppercase=true} Books - Create : Create a new book attempted.
+ {level:upppercase=true} Books - Create: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+ {level:upppercase=true} Books - Create : Create a new book attempted.
+ {level:upppercase=true} Books - Create : Creation Successfull.
+ {level:upppercase=true} Books - Create : BookStore_API.Data.Book

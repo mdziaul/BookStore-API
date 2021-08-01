@@ -1,0 +1,11 @@
+ {level:upppercase=true} Books - GetBook 	: Attempted call for id: 1
+ {level:upppercase=true} Books - GetBook : successfully got record with id: 1
+ {level:upppercase=true} Books - Create : Create a new book attempted.
+ {level:upppercase=true} Books - Create : Creation Successfull.
+ {level:upppercase=true} Books - Create : BookStore_API.Data.Book
+ {level:upppercase=true} Books - Delete : Delete attempted on record with id: 3
+ {level:upppercase=true} Books - Delete : Delete successful, book record with id: 3
+ {level:upppercase=true} Books - Delete : Delete attempted on record with id: 3
+ {level:upppercase=true} Books - Delete : Delete failed, No record found with id:3
+ {level:upppercase=true} Books - Delete : Delete attempted on record with id: 3
+ {level:upppercase=true} Books - Delete : Delete failed, No record found with id:3
